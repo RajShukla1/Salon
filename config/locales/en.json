@@ -1,0 +1,33 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "bookNow": "Book Now"
+  },
+  "hero": {
+    "bookAppointment": "Book Appointment",
+    "whatsappUs": "WhatsApp Us"
+  },
+  "stats": {
+    "experience": "Years Experience",
+    "customers": "Happy Customers",
+    "rating": "Google Rating"
+  },
+  "sections": {
+    "services": "Our Services",
+    "offers": "Special Offers",
+    "reviews": "Customer Reviews",
+    "faq": "Frequently Asked Questions"
+  },
+  "booking": {
+    "selectService": "Select Service",
+    "bookService": "Book This Service",
+    "viaWhatsapp": "Book via WhatsApp in 10 Seconds"
+  },
+  "status": {
+    "openNow": "Open Now",
+    "closedNow": "Closed Now"
+  }
+}

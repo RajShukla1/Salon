@@ -1,0 +1,14 @@
+[
+  {
+    "id": "student-discount",
+    "title": { "en": "Student Discount", "hi": "छात्र छूट" },
+    "description": { "en": "Show your valid student ID and get 20% off on all haircuts.", "hi": "अपनी वैध छात्र आईडी दिखाएं और सभी हेयरकट पर 20% की छूट पाएं।" },
+    "code": "STUDENT20"
+  },
+  {
+    "id": "wedding-package",
+    "title": { "en": "Wedding Groom Package", "hi": "वेडिंग ग्रूम पैकेज" },
+    "description": { "en": "Complete grooming package for the big day including haircut, facial, and spa.", "hi": "बड़े दिन के लिए पूरा ग्रूमिंग पैकेज जिसमें हेयरकट, फेशियल और स्पा शामिल है।" },
+    "price": "₹1999"
+  }
+]

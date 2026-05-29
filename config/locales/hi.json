@@ -1,0 +1,33 @@
+{
+  "nav": {
+    "home": "होम",
+    "services": "सेवाएं",
+    "about": "हमारे बारे में",
+    "contact": "संपर्क करें",
+    "bookNow": "अभी बुक करें"
+  },
+  "hero": {
+    "bookAppointment": "अपॉइंटमेंट बुक करें",
+    "whatsappUs": "हमें WhatsApp करें"
+  },
+  "stats": {
+    "experience": "वर्षों का अनुभव",
+    "customers": "संतुष्ट ग्राहक",
+    "rating": "Google रेटिंग"
+  },
+  "sections": {
+    "services": "हमारी सेवाएं",
+    "offers": "विशेष ऑफर",
+    "reviews": "ग्राहक समीक्षा",
+    "faq": "अक्सर पूछे जाने वाले प्रश्न"
+  },
+  "booking": {
+    "selectService": "सेवा चुनें",
+    "bookService": "यह सेवा बुक करें",
+    "viaWhatsapp": "10 सेकंड में WhatsApp के माध्यम से बुक करें"
+  },
+  "status": {
+    "openNow": "अभी खुला है",
+    "closedNow": "अभी बंद है"
+  }
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "category": { "en": "Hair", "hi": "बाल" },
+    "items": [
+      { 
+        "id": "hair-cut", 
+        "name": { "en": "Hair Cut", "hi": "हेयर कट" }, 
+        "price": "₹150", 
+        "description": { "en": "Classic and modern styles tailored for you.", "hi": "आपके लिए क्लासिक और आधुनिक स्टाइल।" }
+      },
+      { 
+        "id": "kids-hair-cut", 
+        "name": { "en": "Kids Hair Cut", "hi": "बच्चों का हेयर कट" }, 
+        "price": "₹100", 
+        "description": { "en": "Gentle and stylish cuts for children.", "hi": "बच्चों के लिए सौम्य और स्टाइलिश कट।" }
+      },
+      { 
+        "id": "hair-color", 
+        "name": { "en": "Hair Coloring", "hi": "हेयर कलरिंग" }, 
+        "price": "₹400", 
+        "description": { "en": "Premium hair coloring with safe products.", "hi": "सुरक्षित उत्पादों के साथ प्रीमियम हेयर कलरिंग।" }
+      },
+      { 
+        "id": "hair-spa", 
+        "name": { "en": "Hair Spa", "hi": "हेयर स्पा" }, 
+        "price": "₹500", 
+        "description": { "en": "Relaxing spa treatment for healthy hair.", "hi": "स्वस्थ बालों के लिए आरामदायक स्पा उपचार।" }
+      }
+    ]
+  },
+  {
+    "category": { "en": "Beard & Face", "hi": "दाढ़ी और चेहरा" },
+    "items": [
+      { 
+        "id": "beard-trim", 
+        "name": { "en": "Beard Trim", "hi": "दाढ़ी ट्रिम" }, 
+        "price": "₹100", 
+        "description": { "en": "Precision beard trimming and shaping.", "hi": "सटीक दाढ़ी ट्रिमिंग और शेपिंग।" }
+      },
+      { 
+        "id": "shaving", 
+        "name": { "en": "Clean Shave", "hi": "क्लीन शेव" }, 
+        "price": "₹80", 
+        "description": { "en": "Smooth and close shave with premium cream.", "hi": "प्रीमियम क्रीम के साथ चिकनी और क्लोज शेव।" }
+      },
+      { 
+        "id": "facial", 
+        "name": { "en": "Facial", "hi": "फेशियल" }, 
+        "price": "₹300", 
+        "description": { "en": "Refreshing and cleansing facial treatment.", "hi": "ताज़ा और सफाई करने वाला फेशियल उपचार।" }
+      }
+    ]
+  },
+  {
+    "category": { "en": "Massage", "hi": "मालिश" },
+    "items": [
+      { 
+        "id": "head-massage", 
+        "name": { "en": "Head Massage", "hi": "सिर की मालिश" }, 
+        "price": "₹150", 
+        "description": { "en": "Relaxing head massage with herbal oils.", "hi": "हर्बल तेलों के साथ आरामदायक सिर की मालिश।" }
+      }
+    ]
+  }
+]

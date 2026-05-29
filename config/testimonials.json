@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Rahul Verma",
+    "rating": 5,
+    "review": { 
+      "en": "Best haircut I've had in Jankipuram. Highly recommend their beard styling!", 
+      "hi": "जानकीपुरम में अब तक का मेरा सबसे अच्छा हेयरकट। मैं उनकी दाढ़ी स्टाइलिंग की अत्यधिक अनुशंसा करता हूँ!" 
+    }
+  },
+  {
+    "name": "Amit Singh",
+    "rating": 5,
+    "review": { 
+      "en": "Very clean shop and professional staff. No long waiting times if you book via WhatsApp.", 
+      "hi": "बहुत साफ दुकान और पेशेवर कर्मचारी। यदि आप WhatsApp के माध्यम से बुक करते हैं तो लंबा इंतजार नहीं करना पड़ता है।" 
+    }
+  },
+  {
+    "name": "Sneha Gupta",
+    "rating": 4,
+    "review": { 
+      "en": "Great kids haircut service. My son was very comfortable.", 
+      "hi": "बच्चों के लिए बेहतरीन हेयरकट सेवा। मेरा बेटा बहुत सहज था।" 
+    }
+  }
+]

@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Jankipuram Barber Shop Template
 
-## Getting Started
+This is a production-ready, highly-converting website template for a local barber shop. Built with Next.js 15, Tailwind CSS v4, and standard static configuration files. 
 
-First, run the development server:
+## Features
+- **Highly Convertible**: Built with Floating WhatsApp buttons, Click-to-call, and Quick Booking WhatsApp messages.
+- **Bilingual Support**: English and Hindi out of the box.
+- **Smart Status**: Automatically shows "Open Now" or "Closed Now" based on business hours configuration.
+- **Config Driven**: Zero code changes required to deploy for another barber shop.
+- **SEO Optimized**: Automatically generates LocalBusiness and HairSalon JSON-LD schema based on your configuration.
+
+---
+
+## 🛠 How to Customize
+
+You can rebrand this entire template for any barber shop just by editing the JSON files in the `/config` directory. 
+
+### 1. Business Details (`/config/business.json`)
+Open this file to change the shop's name, address, WhatsApp number, phone number, and operating hours. 
+*Note: Make sure the WhatsApp number includes the country code without any `+` sign or spaces (e.g., `919876543210`)*.
+
+### 2. Services & Prices (`/config/services.json`)
+Add or remove services and categories. The website will automatically generate the services list and connect the "Book" buttons to the configured WhatsApp number.
+
+### 3. Offers & Promos (`/config/offers.json`)
+Update this file for festival promotions (e.g. Diwali Offer, Eid Offer).
+
+### 4. Testimonials (`/config/testimonials.json`)
+Add real customer reviews and star ratings to build trust.
+
+### 5. Languages (`/config/locales/en.json` & `hi.json`)
+Change the static text of the website here. If you want to add another language, create a new locale file and update the `LanguageContext.tsx`.
+
+---
+
+## 🚀 Deployment Guide (Vercel)
+
+This project is built to deploy perfectly on the **free tier of Vercel**. No database or backend required.
+
+1. **Push to GitHub**:
+   - Initialize a git repository if you haven't already (`git init`).
+   - Commit your changes and push them to a public or private GitHub repository.
+
+2. **Deploy on Vercel**:
+   - Go to [Vercel.com](https://vercel.com/) and sign in with your GitHub account.
+   - Click **Add New** -> **Project**.
+   - Import your GitHub repository.
+   - Vercel will automatically detect that it's a **Next.js** project.
+   - Leave the build settings as default (`npm run build`).
+   - Click **Deploy**.
+
+3. **Custom Domain**:
+   - Once deployed, your site will have a free Vercel subdomain (e.g., `jankipuram-barber.vercel.app`).
+   - Go to your Vercel project **Settings** -> **Domains**.
+   - Enter your custom domain (e.g., `jankipurambarbershop.com`) and follow the DNS instructions to point your domain to Vercel.
+
+## 💻 Local Development
+
+To run this project locally:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
